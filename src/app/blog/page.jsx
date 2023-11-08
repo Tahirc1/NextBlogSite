@@ -15,12 +15,18 @@ async function getData() {
 }
 
 const Blog = async () => {
-  let data = await getData();
+  // let data = await getData();
+  let data = {
+    id: 1,
+    title: "Creative Portfolio",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
+    image: "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg",
+  };
   return (
     <div className={style.mainContainer}>
       {data.map((item) => (
         <Link
-          href={`/blog/${item._id}`}
+          href={`/blog/${item.id}`}
           className={style.container}
           key={item._id}
         >
