@@ -5,7 +5,7 @@ import Image from "next/image";
 import Bimg from "@/../public/illustration.png";
 
 async function getData() {
-  const res = await fetch(`http://localhost:3000/api/posts`, {
+  const res = await fetch(`${process.env.NEXTAUTH_URL}api/posts`, {
     cache: "no-store",
   });
   if (!res.ok) {
@@ -15,23 +15,15 @@ async function getData() {
 }
 
 const Blog = async () => {
-  // let data = await getData();
-  let data = [
-    {
-      id: 1,
-      title: "Creative Portfolio",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur vel tenetur necessitatibus unde natus perspiciatis, amet cupiditate ducimus possimus, eaque ex autem id nobis eum dolorem. Neque eveniet fugiat tenetur?",
-      img: "https://images.pexels.com/photos/3130810/pexels-photo-3130810.jpeg",
-    },
-  ];
+  let data = await getData();
+
   return (
     <div className={style.mainContainer}>
       {data.map((item) => (
         <Link
           href={`/blog/${item.id}`}
           className={style.container}
-          //key={item._id}
-          key={item.id}
+          key={item._id}
         >
           <div className={style.imgContainer}>
             <Image
