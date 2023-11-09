@@ -62,7 +62,11 @@ const Register = () => {
         {error && "Something went wrong!"}
       </form>
       <span className={styles.or}>- OR -</span>
-      <Link className={styles.link} href="/dashboard/login">
+      <Link
+        className={styles.link}
+        style={{ color: "#6c63ff" }}
+        href="/dashboard/login"
+      >
         Login with an existing account
       </Link>
     </div>

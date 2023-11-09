@@ -1,7 +1,8 @@
 .container {
   padding: 20px;
   cursor: pointer;
-  background-color: #58c28b;
+  font-size: medium;
+  background-color: #6c63ff;
   border: none;
   border-radius: 5px;
   max-width: fit-content;

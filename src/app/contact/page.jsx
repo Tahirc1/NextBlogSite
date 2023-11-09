@@ -1,12 +1,12 @@
 import React from "react";
 import style from "./page.module.css";
 import Image from "next/image";
-import conImg from "public/contact.png";
-import Button from "@/components/Button/Button";
+import conImg from "public/contact2t.png";
+import ContactForm from "@/components/ContactForm/ContactForm";
 
 export const metadata = {
   title: "Contact Page",
-  description: "this is a next js contact page made by tahir",
+  description: "This is a next js contact page for FutureBlog website ",
 };
 
 const Contact = () => {
@@ -22,18 +22,7 @@ const Contact = () => {
             alt="conatct"
           />
         </div>
-        <form className={style.form}>
-          <input type="text" placeholder="Name" className={style.input} />
-          <input type="text" placeholder="Email" className={style.input} />
-          <textarea
-            type="text"
-            placeholder="Message"
-            className={style.textArea}
-            cols={30}
-            rows={10}
-          ></textarea>
-          <Button url={"#"} text="Send" />
-        </form>
+        <ContactForm />
       </div>
     </div>
   );

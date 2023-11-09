@@ -51,7 +51,7 @@ const Login = () => {
         Sign in with Google
       </button>
 
-      <Link href="/dashboard/register" style={{ color: "green" }}>
+      <Link href="/dashboard/register" style={{ color: "#6c63ff" }}>
         {" "}
         Dont have an account ? Register{" "}
       </Link>

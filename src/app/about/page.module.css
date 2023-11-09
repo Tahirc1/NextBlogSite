@@ -16,7 +16,7 @@
   position: absolute;
   bottom: 20px;
   left: 20px;
-  background-color: #53c28b;
+  background-color: #6c63ff;
   padding: 5px;
   color: white;
 }
@@ -39,4 +39,16 @@
   font-size: 18px;
   text-align: justify;
   font-weight: 300;
+}
+
+.loadCon {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.load {
+  font-weight: 700;
 }

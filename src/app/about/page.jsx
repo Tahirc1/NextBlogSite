@@ -11,9 +11,7 @@ const About = () => {
         <Image src={aboutImg} fill="true" alt="image" className={style.img} />
         <div className={style.imgText}>
           <h1 className={style.imgTitle}> Digital story</h1>
-          <h2 className={style.imgDesc}>
-            hand craft awad winning work everyday
-          </h2>
+          <h2 className={style.imgDesc}>Doing award winning work everyday</h2>
         </div>
       </div>
       <div className={style.textCon}>
@@ -43,7 +41,7 @@ const About = () => {
             <br /> <br /> -Suspendisse
             <br /> -odio vel orci dictum commodo.
           </p>
-          <Button url="/contact" text="contact" />
+          <Button url="/contact" text="Contact Us" />
         </div>
       </div>
     </div>

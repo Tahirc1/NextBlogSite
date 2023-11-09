@@ -17,7 +17,7 @@
   padding: 20px;
   background-color: transparent;
   border: 2px solid #bbb;
-  color: #bbb;
+  color: #838383;
   border-radius: 5px;
   font-size: 20px;
   font-weight: bold;
@@ -27,7 +27,8 @@
   width: 300px;
   padding: 20px;
   cursor: pointer;
-  background-color: #53c28b;
+  font-size: medium;
+  background-color: #6c63ff;
   border: none;
   border-radius: 5px;
   color: #eee;

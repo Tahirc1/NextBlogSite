@@ -14,7 +14,7 @@
 .title {
   font-size: 72px;
   background-clip: text;
-  background: linear-gradient(to bottom, #194c33, #bbb);
+  background: linear-gradient(to bottom, #5b52fc, #bbb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -27,7 +27,7 @@
 .btn {
   padding: 20px;
   cursor: pointer;
-  background-color: #58c28b;
+  background-color: #6c63ff;
   border: none;
   border-radius: 5px;
   max-width: fit-content;

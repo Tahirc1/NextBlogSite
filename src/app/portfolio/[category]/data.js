@@ -1,5 +1,5 @@
 const items = {
-  applications: [
+  device: [
     {
       id: 1,
       title: "Creative Portfolio",
@@ -22,7 +22,7 @@ const items = {
         "https://images.pexels.com/photos/2916450/pexels-photo-2916450.jpeg",
     },
   ],
-  illustrations: [
+  genaiml: [
     {
       id: 1,
       title: "Creative Portfolio",
