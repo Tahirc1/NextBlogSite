@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className={style.container}>
       <Link className={style.logo} href="/">
         {" "}
-        FutureBlog{" "}
+        FutureBlogs{" "}
       </Link>
       <div className={style.links}>
         <DarkModeToggle />
